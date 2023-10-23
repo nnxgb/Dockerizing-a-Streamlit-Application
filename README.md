@@ -16,7 +16,7 @@ Follow these steps to dockerize a Streamlit application:
    git clone https://github.com/yourusername/dockerizing-streamlit.git
    cd dockerizing-streamlit
 
-2. Create a virtual environment and install docker.
+2. Create a virtual environment and install the required libraries.
 
 3. Build the Docker Image:
 
