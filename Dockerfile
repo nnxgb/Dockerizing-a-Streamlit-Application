@@ -5,6 +5,6 @@ COPY .streamlit /app/.streamlit
 WORKDIR /app
 RUN pip3 install -r requirements.txt
 # Expose the port Streamlit will run on (change if needed)
-EXPOSE 8501
+EXPOSE 7010
 # Set the entrypoint to run Streamlit with custom server settings
-CMD ["streamlit", "run", "app.py", "--server.address", "0.0.0.0", "--server.port", "8501"]
+CMD ["streamlit", "run", "app.py", "--server.address", "0.0.0.0", "--server.port", "7010"]
